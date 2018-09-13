@@ -1,0 +1,75 @@
+{% assign dir = "../.." %}
+{% assign nav_about_abci = "active" %}
+{% assign side_menu_about_abci_software = "active" %}
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="../../css/style.css" />
+<link rel="stylesheet" href="../../css/sub.css" />
+<script type='text/javascript' src='../../js/jquery.js'></script>
+<script type='text/javascript' src='../../js/base.js'></script>
+<link rel="icon" sizes="32x32" href="../../img/favicon-32x32.png">
+<link rel="icon" sizes="192x192" href="../../img/meta/touch-icon-192x192.png">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="../../img/meta/apple-touch-icon-180x180-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../img/meta/apple-touch-icon-152x152-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../img/meta/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../../img/meta/apple-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../img/meta/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../../img/meta/apple-touch-icon-76x76-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../img/meta/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="../../img/meta/apple-touch-icon-precomposed.png">
+<meta name="msapplication-TileImage" content="../../img/meta/msapplication_tileimage.png">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118371652-1"></script>
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-118371652-1'); </script>
+</head>
+
+
+<body>
+<header id="header">
+<div  class="wraps">
+
+<a href="../../" id="logo"><img src="../../img/logo.png" alt="ABCI" /></a>
+<span id="menu_btn" class="sp"><a href="javascript:;"><span></span><span></span><span></span></a><font>MENU</font></span>
+<div id="nav_wrap">
+
+<nav id="nav">
+{% include en/nav.html %}
+</nav>
+
+</div>
+</div>
+</header>
+
+<div id="sub_area" class="wrap">
+<div id="breadcrumb" class="pc">
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="ABCI" href="../../" class="home"><span property="name">HOME</span></a><meta property="position" content="1"></span>
+<span property="itemListElement" typeof="ListItem"><span property="name">SOFTWARE STACK</span><meta property="position" content="2"></span>
+</div>
+<h1 class="h1">About ABCI</h1>
+</div>
+
+<div id="main" class="wrap cf">
+
+<aside id="left">
+<div id="sub_menu_select" class="sp">Menu<span></span></div>
+<nav id="side_menu">
+{% include en/side_menu_about_abci.html %}
+</nav>
+</aside>
+
+<div id="container">
+{{ content }}
+</div>
+
+</div>
+<footer id="footer">
+{% include en/footer.html %}
+</footer>
+
+</body>
+
+</html>

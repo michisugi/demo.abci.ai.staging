@@ -1,0 +1,140 @@
+---
+layout: en/event/post
+title:  "ABCI Grand Challenge 2018 (No.1)"
+date:   2018-07-23 00:00:00 +0900
+showdate: 2018.07.23-27
+lang: en
+headline: "1"
+categories: "EVENT"
+img: event2.png
+---
+
+
+## ABCI Grand Challenge 2018 (No. 1)
+{: .ah2 }
+
+<div class="lead_text">The National Institute of Advanced Industrial Science and Technology (AIST) coordinates "ABCI Grand Challenge" to offer ABCI as a resource to support highly challenging themes in the field of AI.  The ABCI Grand Challenge program is an open recruitment program where one research team may use the total of 1,088 nodes (4,352 GPU's) for up to 24 hours.  We are looking forward to receiving challenging proposals that are expected to achieve breakthrough results through the use of ABCI, the world's largest computing AI infrastructure.</div>
+<br />
+
+
+### Details about Computing Resources
+{: .ah3 }
+
+<ul class="dot_ul">
+<li class="dot">AI Bridging Cloud Infrastructure (ABCI)</li>
+<li class="dot">1,088 nodes (4,352 GPU's) for up to 24 hours</li>
+</ul>
+
+<br />
+
+
+### Overview of ABCI Grand Challenge (2018)
+{: .ah3 }
+
+<p class="c">In fiscal year 2018, the program will be offered three times.</p>
+<table class="table">
+<tr align="center">
+<th>&nbsp;</th>
+<th>Application Period</th>
+<th>Notification of Selection</th>
+<th>Challenge Execution Period</th>
+</tr>
+<tr>
+<td>No.1 <br /><nobr>(On Going)</nobr></td>
+<td>2018.4.1-30</td>
+<td>2018.5.30</td>
+<td>2018.7.23-27</td>
+</tr>
+<tr>
+<td>No.2</td>
+<td>2018.8.1-31</td>
+<td>2018.9.30</td>
+<td>End of 2018.10. <br />(Tentative Date)</td>
+</tr>
+<tr>
+<td>No.3</td>
+<td>2018.11.1-30</td>
+<td>2018.12.21</td>
+<td>End of 2019.1. <br />(Tentative Date)</td>
+</tr>
+</table>
+<br />
+
+<ul class="dot_ul">
+<li class="dot">Themes are open. An individual or a group may propose a theme.</li>
+<li class="dot">About 2 themes will be selected for each ABCI Grand Challenge program period.</li>
+<li class="dot">Joint research themes with AIST may be accepted if both parties are in agreement.</li>
+<li class="dot">Testing opportunities will be available with small-scale trials before the challenge.</li>
+<li class="dot">ABCI is free of charge including during testing.</li>
+<li class="dot">Challengers will be asked to follow the ABCI Agreement.</li>
+</ul>
+
+<br />
+
+
+### Theme and Applicant Requirements
+{: .ah3 }
+
+<ul class="dot_ul">
+<li class="dot">A theme must be a challenging AI issue that will benefit from ABCI's large-scale processing of up to 1,088 nodes (4,352 GPU's).</li>
+<li class="dot">A theme and a group structure are well prepared to execute the theme with a maximum of 1,088 nodes (4,352 GPU's)</li>
+<li class="dot">An applicant must be a person who belongs to either a university, a research institute or a corporation in Japan.</li>
+</ul>    
+
+<br />
+
+
+### Application
+{: .ah3 }
+
+<div class="c">
+<p>Please download the Application Form from the following URL</p>
+<p><a href="../../../../assets/GrandChallenge/abci-gc-proposal.docx" class="link"><strong>Word format</strong></a>&nbsp;&nbsp;<a href="../../../../assets/GrandChallenge/abci-gc-proposal.pdf" class="link ml30"><strong>PDF format</strong></a></p>
+Please fill in all the necessary items in the Application Form, and send it by email to the following address by the application deadline:<br />
+Submission email address: <a href="mailto:abci-gc@aist.go.jp" target="_blank" class="link"><strong>abci-gc@aist.go.jp</strong></a><br />
+Notification of acceptance will be sent by email.<br />
+</div>
+
+
+### Theme Review Process
+{: .ah3 }
+
+<div class="c">
+<p class="mb2p">A review sub-committee within the ABCI Grand Challenge Committee will review and discuss the submissions. </p>
+Review will be based on the following:<br />
+<ul class="dot_ul">
+<li class="dot">The theme is challenging.</li>
+<li class="dot">An outstanding result in the field of AI is expected.</li>
+<li class="dot">Academic and/or Social impact is expected.</li>
+<li class="dot">The feasibility and relevance of the plan are clear.</li>
+<li class="dot">The group structure is well prepared.</li>
+</ul>   
+</div>
+
+
+### Results
+{: .ah3 }
+
+<ul class="dot_ul">
+<li class="dot">Please submit an implementation report in the format provided by AIST within one month after implementation.</li>
+<li class="dot">As a general rule, the results will be publicized as part of this program.</li>
+<li class="dot">When publishing the results, please include  "using ABCI" and "The results were achieved through the ABCI Grand Challenge Program."</li>
+<li class="dot">We may ask to Challengers to present the results at seminars or workshops organized by AIST. </li>
+<li class="dot">The intellectual properties obtained through the ABCI Grand Challenge belong to the executing parties. However, themes carried out as collaborative research with AIST will follow the Joint Research Agreement.</li>
+</ul>
+
+<br />
+
+
+### Credit Information when Publicizing the Research Results
+{: .ah3 }
+
+<div class="c">
+<p>When publicizing the research results in academic papers, etc., please include the following credit information:</p>
+<div>
+<strong>■ Name of the Program</strong><br />
+"ABCI Grand Challenge" Program, National Institute of Advanced Industrial Science and Technology (AIST).
+</div>
+<div>
+<strong>■ Examples of Acknowledgement</strong><br />
+Computational resource of AI Bridging Cloud Infrastructure (ABCI) was awarded by "ABCI Grand Challenge" Program, National Institute of Advanced Industrial Science and Technology (AIST).

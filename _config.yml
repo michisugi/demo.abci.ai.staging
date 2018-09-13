@@ -1,0 +1,9 @@
+title: ABCI
+markdown: kramdown
+permalink: date
+timezone: Asia/Tokyo
+plugins:
+  - jekyll-feed
+gems:
+  - jekyll-redirect-from
+

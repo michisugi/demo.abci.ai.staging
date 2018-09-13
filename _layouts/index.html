@@ -1,0 +1,140 @@
+{% assign dir = "." %}
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/index.css" />
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/base.js'></script>
+<script type='text/javascript' src='js/index.js'></script>
+
+<link rel="icon" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" sizes="192x192" href="img/meta/touch-icon-192x192.png">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/meta/apple-touch-icon-180x180-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/meta/apple-touch-icon-152x152-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/meta/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/meta/apple-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/meta/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/meta/apple-touch-icon-76x76-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/meta/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/meta/apple-touch-icon-precomposed.png">
+<meta name="msapplication-TileImage" content="img/meta/msapplication_tileimage.png">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118371652-1"></script>
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-118371652-1'); </script>
+</head>
+
+
+<body id="home">
+<header id="header" class="wraps">
+<a href="./" id="logo"><img src="img/logo.png" alt="ABCI" /></a>
+<span id="menu_btn" class="sp"><a href="javascript:;"><span></span><span></span><span></span></a><font>MENU</font></span>
+<div id="nav_wrap">
+<nav id="nav">
+{% include en/nav.html %}
+</nav>
+</div>
+
+</header>
+
+<div id="top_img_wrap">
+<div id="top_img_contents" class="wrap">
+<h1 id="top_img"><img id="top_img_img" src="img/index/text_img.png" alt="AI Bridging Cloud Infrastructure" /></h1>
+<h2 id="top_img_text">AI Briding Cloud Infrastructure (ABCI) is the world's first large-scale Open AI Computing Infrastructure, constructed and operated by National Institute of Advanced Industrial Science and Technology (AIST).</h2>
+</div>
+</div>
+
+<div id="main" class="wrap">
+
+<div id="widgets_news">
+
+<span class="f17"><strong class="f20">What's New</strong> | {{ page.newsdate }}</span>
+<h2 class="h2">{{ page.newstitle }}</h2>
+
+
+<div id="abci_headline">
+<h2 class="widget_title mb15">ABCI Headline</h2>
+<ul class="ns">
+{% for post in site.posts %}
+  {% for categories in post.categories %}
+    {% if post.lang == 'en' and post.headline == '1' %} 
+      {% if categories == 'HEADLINE' %} 
+<li><b><span>{{ post.showdate }} </span><br />{{ post.title }}</b></li>
+      {% elsif post.outurl != null and post.outurl != '' %} 
+<li><a href="{{ post.outurl }}" target="_blank"><span>{{ post.showdate }} [{{ post.categories }}]</span>{{ post.title }}</a></li>
+      {% else %}
+<li><a href=".{{ post.url }}"><span>{{ post.showdate }} [{{ post.categories }}]</span>{{ post.title }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
+</div>
+</div>
+
+<div id="top_img_menu">
+<ul class="ns cf">
+<li><a href="./en/about_abci/"><img src="img/index/img1.jpg" alt="" /><h2>About ABCI</h2></a></li>
+<li><a href="./en/how_to_use/"><img src="img/index/img2.jpg" alt="" /><h2>How to Use ABCI</h2></a></li>
+<li><a href="./en/news/"><img src="img/index/img3.jpg" alt="" /><h2>NEWS</h2></a></li>
+<li><a href="./en/about_abci/info.html"><img src="img/index/img4.jpg" alt="" /><h2>OPERATION STATUS</h2></a></li>
+
+</ul>
+</div>
+
+<div id="event">
+<h2 class="widget_title">Event<a href="./en/event/" class="more_link">Event Archives</a></h2>
+<ul class="ns cf">
+{% assign dt_now = 'now' | date: "%Y%m%d" %}
+{% assign tmp = "" %}
+{% for post in site.posts reversed %}
+  {% if post.lang == 'en' %} 
+    {% for categories in post.categories %}
+      {% if categories == 'EVENT' %} 
+
+        {% assign dt_date = post.date | date: "%Y%m%d" %}
+
+        {% if dt_date >= dt_now %} 
+
+          {% if tmp.size >= 3 %} 
+            {% assign class = ' class="disnone"' %}
+          {% else %}
+            {% assign class = "" %}
+          {% endif %}
+
+          {% if post.outurl != null and post.outurl != '' %} 
+<li{{ class }}><a href="{{ post.outurl }}" target="_blank"><div><strong>{{ post.title }}</strong></div><figure><img src="./img/event/{{ post.img }}" alt="" /></figure><p class="cf"><img src="./img/icon/s_logo.png" />{{ post.showdate }}</p></a></li>
+          {% else %}
+<li{{ class }}><a href=".{{ post.url }}"><div><strong>{{ post.title }}</strong></div><figure><img src="./img/event/{{ post.img }}" alt="" /></figure><p class="cf"><img src="./img/icon/s_logo.png" />{{ post.showdate }}</p></a></li>
+          {% endif %}
+
+          {% assign tmp = tmp | append: "*" %}
+
+        {% endif %} 
+
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</ul>   
+</div>
+
+{% if tmp.size >= 4 %} 
+<div class="btn_area">
+<a href="javascript:;" id="read_more" class="btn">Read More</a>
+<a href="javascript:;" id="btn_close" class="btn">Hidden</a>
+</div>
+{% endif %}
+
+</div>
+
+<footer id="footer">
+{% include en/footer.html %}
+</footer>
+
+</body>
+
+</html>

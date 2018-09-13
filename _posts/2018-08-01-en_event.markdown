@@ -1,0 +1,20 @@
+---
+layout: en/event/post
+title:  "ABCI Cloud Service is open."
+date:   2018-08-01 00:00:00 +0900
+showdate: 2018.08.01
+lang: en
+headline: "1"
+categories: "EVENT"
+img: event3.png
+---
+
+
+## ABCI CLOUD SERVICE is open.
+{: .ah2 }
+
+
+<div>ABCI Cloud service is open on 2018/8/1 13:00.</div>
+<br />
+
+

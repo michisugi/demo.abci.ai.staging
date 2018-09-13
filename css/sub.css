@@ -1,0 +1,115 @@
+.h3{border:1px solid #003250; font-size:20px; text-align:center; color:#00314F; margin-bottom:20px;}
+.h4{color:#00314F; font-size:16px;}
+
+
+.lead_text{padding-bottom:20px;font-weight:bold;font-size:14px;line-height:28px; color:#00314F}
+
+.column{font-weight:bold;color:#00314F; border:1px dashed #003250; padding:10px; display:inline-block}
+
+.dot_ul,.square_ul,.number_ul{margin:0; padding:0; list-style:none; text-align:left}
+.dot{position:relative; padding-left:15px;}
+
+.dot:before{position:absolute; left:5px; top:12px; width:2px; height:2px; border-radius:50%; background-color:#000; content:""}
+
+.square{position:relative;padding-left:15px; }
+.square:before{position:absolute; left:0; top:8px; width:10px; height:10px; background-color:#003250; content:""}
+.number{padding-left:10px; list-style:decimal; margin-left:20px}
+
+.box_menu,.c_box_menu,.box_menu2{display:block; text-align:center; font-size:20px; font-weight:bold; color:#fff; background-color:#003151; position:relative}
+.box_menu:hover,.c_box_menu:hover,.box_menu2:hover{background-color:#176098; color:#fff}
+#use_guide{display:none}
+#temp_pass{ border:1px solid #666; height:17px; width:80px; line-height:17px; font-size:12px; margin-left:5px}
+#pass_submit{ line-height:17px; font-size:12px; display:inline-block; padding:0 5px; margin-left:3px; cursor:pointer; text-align:center; background-color:#666; color:#fff; border:none}
+#pass_submit:hover{background-color:#999}
+
+.faq{border-bottom:1px dashed #003250; padding-bottom:15px; margin-bottom:30px;color:#00314F}
+.q{font-size:14px; font-weight:bold; background:url(../img/icon/q.png) no-repeat 10px center #E6EAEE; padding:15px 0;padding-left:60px; line-height:1.2; margin-bottom:15px}
+.a{font-size:12px; background:url(../img/icon/a.png) no-repeat 10px 5px;padding-left:60px; margin-left:0}
+.a_title{display:inline-block; border:1px solid #003250; border-radius:20px; padding:3px 10px; line-height:1; margin-left:20px; margin-right:5px}
+#pagenation{padding-top:30px; text-align:center}
+.prev,.next,.current,.page{display:inline-block; border:1px solid #003250; border-radius:3px; font-weight:bold; padding:0 10px; margin:0 3px}
+.prev,.next,.page{background-color:#003250; color:#fff}
+.prev:hover,.next:hover,.page:hover{ background-color:#176098; color:#fff}
+#event_contents{padding-top:30px;}
+#side_contact_area{color:#fff; font-size:12px}
+#side_contact_title{font-size:16px; border-bottom:1px solid #fff; margin-bottom:10px;color:#fff; display:block}
+#side_contact_c{font-size:12px; line-height:1.2}
+.side_contact_link{color:#fff; text-decoration:underline}
+.side_contact_link:hover{color:#fff}
+
+#archive_contents{background-color:#fff}
+.ah1{color:#00314F; font-size:22px; border-bottom:1px solid #003250; padding-bottom:15px; line-height:1; margin-bottom:50px}
+.ah2{color:#00314F; font-size:34px; line-height:1.2; margin-bottom:30px}
+.ah3{color:#00314F; font-size:25px; border-bottom:1px solid #003250; padding-bottom:10px; line-height:1; margin-bottom:20px}
+.bubble{border:1px solid #003250; border-radius:10px; padding:20px; margin:0 20px; text-align:center}
+.table{border-right:1px solid #606C80;border-top:1px solid #606C80}
+.table th,.table td{border-left:1px solid #606C80;border-bottom:1px solid #606C80; padding:7px 10px}
+.table th{background-color:#04314F; color:#fff; font-weight:bold; padding:5px 10px; font-size:14px; line-height:1.5;}
+.table td{color:#1F4964; line-height:1.2}
+
+.res_table{border-right:1px solid #606C80;border-top:1px solid #606C80}
+.res_table th,.res_table td{border-left:1px solid #606C80;border-bottom:1px solid #606C80; padding:7px 10px}
+.res_table th{background-color:#04314F; color:#fff; font-weight:bold; padding:15px 10px; font-size:14px}
+.res_table td{color:#1F4964; line-height:1.2}
+
+@media screen and (min-width: 641px){
+
+.c{padding-left:10px; margin-bottom:30px}
+
+
+.box_menu,.box_menu2{ width:290px; height:290px; line-height:290px; float:left; margin-left:30px}
+.box_menu2{line-height:1.2; padding-top:120px}
+.c_box_menu{display:table; width:385px; float:left; margin:0 25px}
+.box_menu_contents{display: table-cell; width:410px; height:335px; vertical-align: middle; }
+.ls_name{width:290px; height:290px; line-height:290px; position:absolute; left:0; top:0}
+.ls_img{position:absolute; left:0; top:0}
+
+
+#event_side{ float:left; width:200px; background-color:#003250; padding:15px; padding-top:0}
+#side_contact_title{margin:20px 0 15px 0}
+.section{margin-bottom:50px}
+
+
+#comming{text-align:center; padding:150px 0; line-height:30px; font-size:24px;}
+#archive_contents{padding:65px}
+#archive_left{float:left; width:200px;font-weight:bold; color:#00314F; padding-left:30px}
+#archive_container{float: left;width:670px;}
+}
+
+@media screen and (max-width:640px){
+.h2{font-size:24px}
+.h3{padding:5px 10px; line-height:1.2; font-size:16px; text-align:left;}
+.h4{line-height:1.2; margin:0; margin-bottom:15px}
+
+.c{margin-bottom:30px}
+#news_left{font-weight:bold; color:#00314F; margin-bottom:10px}
+#news_contents{margin:0 10px}
+#main,#contents,#news_contents{background-color:#fff; padding:15px}
+.section{margin-bottom:30px}
+
+.box_menu,.c_box_menu,.box_menu2{margin-bottom:20px; padding:10px 0}
+.box_menu.x{padding:0}
+#comming{text-align:center; padding:50px 0; line-height:30px; font-size:24px;}
+
+#side_contact_area{color:#00314F;border:1px solid #003250; padding:15px; margin:30px 0}
+#side_contact_title{color:#00314F; border-bottom:1px solid #003250}
+
+.side_contact_link{color:#00314F}
+.side_contact_link:hover{color:#00314F}
+
+
+#archive_contents{padding:20px; margin:0 10px}
+#archive_left{font-weight:bold; color:#00314F; text-align:right; margin-bottom:20px}
+
+.ah1{font-size:22px;padding-bottom:15px; margin-bottom:20px}
+.ah2{font-size:20px; margin-bottom:30px}
+.ah3{font-size:18px; padding-bottom:10px; margin-bottom:20px}
+.ls_name{ display:block}
+.ls_img{width:100%}
+
+#event_contents{margin:0 10px}
+.res_table th,.res_table td{display:block; width:100%}
+.res_table th{padding:5px 10px; text-align:left}
+
+.table.en td{font-size:12px; word-break:break-all}
+}

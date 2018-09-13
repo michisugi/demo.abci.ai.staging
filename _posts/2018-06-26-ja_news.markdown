@@ -1,0 +1,10 @@
+---
+layout: ja/news/post
+title:  "大規模AIクラウド計算システム「ABCI」がスパコン性能ランキング世界5位"
+date:   2018-06-26 00:00:00 +0900
+showdate: 2018.06.26
+lang: ja
+headline: "1"
+categories: "NEWS"
+outurl: https://www.aist.go.jp/aist_j/press_release/pr2018/pr20180626/pr20180626.html
+---

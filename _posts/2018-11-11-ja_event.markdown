@@ -1,0 +1,11 @@
+---
+layout: ja/event/post
+title:  "SC 18"
+date:   2018-11-11 00:00:00 +0900
+showdate: 2018.11.11
+lang: ja
+headline: "1"
+categories: "EVENT"
+img: event5.png
+outurl: https://sc18.supercomputing.org/
+---

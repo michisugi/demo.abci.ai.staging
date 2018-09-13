@@ -1,0 +1,77 @@
+/* Index Strat */
+#top_img_wrap{background:url(../img/index/bg.png) no-repeat center center #02040A; color:#fff;}
+#widgets_news{color:#00314F}
+
+.btn_maru{display:block; text-align:center; font-size:16px; border:1px solid #003250; font-weight:bold; line-height:40px; border-radius:40px; margin-top:15px}
+.btn_maru:hover{background-color:#176098;border:1px solid #176098; color:#fff}
+.r_arrow{display:inline-block; padding-right:15px; position:relative}
+.r_arrow:before{content:"";position: absolute; right:0; bottom:0; top:0; vertical-align:middle; margin:auto; width:10px; height:10px; border-left:2px solid #003250;border-bottom:2px solid #003250;-webkit-transform: rotate(-135deg);transform: rotate(-135deg);}
+.btn_maru:hover .r_arrow:before{ border-left:2px solid #fff;border-bottom:2px solid #fff;-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-ms-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;}
+
+.widget_title{font-size:24px; line-height:1.2; position:relative; padding-bottom:15px; margin-bottom:20px;color:#00314F; margin-bottom:30px;}
+.widget_title:before{position:absolute; left:0; bottom:0; width:90px; height:2px; background-color:#003250; content:""}
+.more_link{float:right; font-size:13px; font-weight:normal; display:block; position:relative; padding-right:15px; margin-top:15px; text-decoration:underline}
+.more_link:after{content:"";position: absolute; right:0; bottom:0; top:0; vertical-align:middle; margin:auto; width:5px; height:5px; border-left:2px solid #003250;border-bottom:2px solid #003250;-webkit-transform: rotate(-135deg);transform: rotate(-135deg);}
+
+#abci_headline li{border-top:1px solid #003250; padding:10px 0;}
+#abci_headline li:first-child{padding-top:0; border:none}
+#abci_headline li a{display:block; font-size:13px; font-weight:bold; line-height:1.2}
+#abci_headline li a span{display:block; font-size:12px; margin-bottom:5px}
+
+#top_img_menu li{margin-left:12px}
+#top_img_menu li:first-child{margin-left:0}
+#top_img_menu li a{width:241px; height:274px; display:block; vertical-align:middle;position:relative; background-color:#1F6297; color:#fff;-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-ms-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;}
+#top_img_menu li a img{position:absolute; left:0; top:0; z-index:0}
+#top_img_menu li a:hover img{opacity:0;filter:alpha(opacity=0);-ms-filter: "alpha( opacity=0)";}
+#top_img_menu li a h2{position:absolute; left:0; top:50%; margin-top:-35px; z-index:1; width:100%; line-height:1.5; color:#fff; text-align:center; font-size:25px; letter-spacing:2px;}
+#top_img_menu li a h2 span{display:block; text-align:center; font-size:20px; letter-spacing:1px}
+#top_img_menu li a h2:before{content:"";position: absolute;left:50%; bottom:-25px; margin-left:-9px; width:18px; height:18px; border-left:3px solid #fff;border-bottom:3px solid #fff;-webkit-transform: rotate(-45deg);transform: rotate(-45deg);-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-ms-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;}
+#top_img_menu li a:hover h2:before{bottom:-30px;}
+
+
+#read_more.active,#btn_close{display:none}
+#btn_close.active{display:inline-block}
+
+@media screen and (min-width: 641px){
+.fl{float:left}
+.fr{float:right}
+
+.f17{font-size:17px}
+.f20{font-size:20px}
+.mb15{margin-bottom:15px}
+
+#top_img_contents{position:relative; height:555px}
+#top_img{position:absolute; left:-30px; top:50px}
+#top_img_img{height:137px}
+#top_img_text{font-weight:normal; font-size:13px; position:absolute; left:-30px; bottom:50px; width:350px}
+
+#widgets_news{position:relative; padding-right:295px;  padding-top:10px; margin-bottom:35px}
+
+#abci_headline{position:absolute; right:0; bottom:0; width:255px; background-color:#fff; padding:20px;}
+#top_img_menu{margin-bottom:30px}
+#top_img_menu li{float:left;}
+
+
+
+
+
+}
+
+@media screen and (max-width:640px){
+.mb15{margin-bottom:15px}
+
+.f17{font-size:15px}
+.f20{font-size:18px}
+
+#top_img_contents{height:300px; position:relative}
+#top_img{padding:5%}
+#top_img_img{width:50%; }
+#top_img_text{font-size:3vw; margin:3%; line-height:1.5; position:absolute; left:0; bottom:0}
+
+#widgets_news{padding-top:10px; margin-bottom:30px}
+#abci_headline{background-color:#fff; padding:15px; margin-top:30px}
+#top_img_menu li{text-align:center; margin-bottom:30px; margin-left:0}
+#top_img_menu li a{display:inline-block}
+
+
+}
