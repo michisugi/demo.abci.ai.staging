@@ -9,7 +9,7 @@ permalink: /ja/about_abci/info.html
 {: .h2 }
 
 
-### 運用スケジュール
+### 運用スケジュール (^_^)
 {: .h3 }
 
 <p class="c">現在の運転状況・障害状況は下記のとおりです。</p>
